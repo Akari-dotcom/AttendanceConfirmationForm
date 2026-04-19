@@ -12,7 +12,7 @@
     <script>
         document.getElementById('attendanceForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            const url = 'YOUR_GAS_WEB_APP_URL';
+            const url = 'https://script.google.com/macros/s/AKfycbwjRb4RyLG3ZuGEe2ax1vhL-YDzYOKsbDQ4_4XTN2NWhhYGHCLUQCDCnZHcGg1IeotlzQ/exec';
             const params = new URLSearchParams();
             params.append('name', document.getElementById('name').value);
             params.append('status', document.getElementById('status').value);

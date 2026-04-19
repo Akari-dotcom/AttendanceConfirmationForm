@@ -9,7 +9,7 @@
     <div id="result"></div>
     <script>
         async function filterData() {
-            const url = 'YOUR_GAS_WEB_APP_URL';
+            const url = 'https://script.google.com/macros/s/AKfycbwjRb4RyLG3ZuGEe2ax1vhL-YDzYOKsbDQ4_4XTN2NWhhYGHCLUQCDCnZHcGg1IeotlzQ/exec';
             const res = await fetch(url);
             const data = await res.json();
             const date = document.getElementById('dateFilter').value;
